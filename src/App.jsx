@@ -1,19 +1,15 @@
-import './App.css'
-import Button from './components/Button'
+import React, { useState } from 'react';
+import TodoList from './pages/TodoList';
+
 
 function App() {
 
+    return (
 
-  return (
-    <>
-    <div style={{ height:'100vh' , display:"flex" , justifyContent:"space-around" , alignItems:"center"}}>
 
-     <Button title='Usman'  color='red'/>
-
-     <Button title='Ayesha'  color='green'/>
-    </div>
-    </>
-  )
+        <TodoList/>
+      
+    );
 }
 
-export default App
+export default App;
